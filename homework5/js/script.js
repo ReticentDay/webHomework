@@ -118,7 +118,7 @@ $(document).ready(function(){
         $ageField.val(snapshot.val().age);
         $qccupation.val(snapshot.val().qccupation);
         photoURL = user.photoURL;
-        $("#name").html(user.displayName);
+        $("#nametext").html(user.displayName);
         $("#user_img").attr({
           "style" : "background: url('" + photoURL + "') center / cover;"
         });
