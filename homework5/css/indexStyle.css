@@ -19,7 +19,7 @@ main{
 }
 .demo-card-wide > .mdl-card__title {
   color: #fff;
-  height: 300px;
+  height: 500px;
 }
 #userinfo{
   list-style-type: none;
